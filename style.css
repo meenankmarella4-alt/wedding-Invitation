@@ -1,1 +1,112 @@
+/* Import Elegant Font */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
 
+/* Reset default browser spacing */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Whole Page */
+body{
+
+    font-family: 'Cinzel', serif;
+
+    background: linear-gradient(135deg,#fff8ec,#fde6c9);
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/* Main Invitation Box */
+.hero{
+
+    width:700px;
+
+    background:white;
+
+    padding:60px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(0,0,0,0.15);
+
+    border:6px solid #d4af37;
+
+}
+
+/* Heading */
+.hero h3{
+
+    color:#8B0000;
+
+    letter-spacing:2px;
+
+    margin-bottom:25px;
+
+}
+
+/* Couple Names */
+.hero h1{
+
+    font-size:60px;
+
+    color:#8B0000;
+
+    margin-bottom:20px;
+
+}
+
+/* Paragraph */
+.hero p{
+
+    font-size:22px;
+
+    color:#555;
+
+    margin-bottom:35px;
+
+    line-height:1.6;
+
+}
+
+/* Button */
+button{
+
+    padding:15px 40px;
+
+    font-size:18px;
+
+    border:none;
+
+    background:#8B0000;
+
+    color:white;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+/* Hover Effect */
+button:hover{
+
+    background:#d4af37;
+
+    color:black;
+
+    transform:scale(1.05);
+
+}
