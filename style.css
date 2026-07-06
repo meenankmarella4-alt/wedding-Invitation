@@ -110,3 +110,44 @@ button:hover{
     transform:scale(1.05);
 
 }
+/* Hidden Section */
+
+.hidden{
+    display:none;
+}
+
+/* Invitation */
+
+.invitation{
+
+    width:700px;
+
+    background:white;
+
+    padding:60px;
+
+    border-radius:20px;
+
+    border:6px solid #d4af37;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+}
+
+.invitation h1{
+
+    color:#8B0000;
+
+    margin-bottom:20px;
+
+}
+
+.invitation h2{
+
+    margin-top:30px;
+
+    color:#b8860b;
+
+}
